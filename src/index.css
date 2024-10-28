@@ -1,0 +1,127 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  color: #333;
+}
+
+/* Navbar Styles */
+.navbar-custom {
+  background: linear-gradient(135deg, #f012d2, #6f42c1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.navbar-brand {
+  font-weight: bold;
+  color: #fff !important;
+}
+.nav-link {
+  color: #f8f9fa !important;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+.nav-link:hover {
+  color: #d4d4ff !important;
+}
+
+/* Icons and Images */
+.icon {
+  margin-right: 8px;
+  font-size: 1.2rem;
+}
+
+.dashboard-container {
+  background: linear-gradient(to bottom right, #f0f4ff, #d6e0ff);
+  min-height: 100vh;
+  padding: 2rem 0;
+}
+
+/* Title Styling */
+.dashboard-title {
+  font-weight: bolder;
+  font-size: 2.5rem;
+  color: #343a40;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+/* Total Students Box */
+.total-students-box {
+  background-color: #19c9e8;
+  color: #fff;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-size: 1.2rem;
+}
+
+/* Chart Container Styling */
+.chart-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* ChartJS Legend Styling */
+.chart-container .chartjs-render-monitor {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+.cust-container {
+  background: linear-gradient(to bottom , #e8ecf0, #6cb5ff);
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+/* Card Styling */
+.edit-student-form {
+  background-color: #fff; /* White background for form */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Title Styling */
+h2 {
+  color: #343a40; /* Dark color for title */
+}
+
+/* Button Styling */
+.btn-primary {
+  background-color: #007bff; /* Bootstrap primary color */
+  border-color: #007bff; /* Same as background for consistency */
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+  border-color: #0056b3;
+}
+
+
+/* Table Styling */
+.table {
+  border-radius: 8px;
+}
+
+/* Table Row Hover Effect */
+.table-hover tbody tr:hover {
+  background-color: #f1f1f1; /* Light grey background on hover */
+}
+
+
+/* Pagination Styling */
+.pagination .page-item.active .page-link {
+  background-color: #007bff; /* Active page background */
+  border-color: #007bff; /* Active page border */
+}
+
+.pagination .page-link:hover {
+  color: white;
+  background-color: #0056b3; /* Darker blue on hover */
+  border-color: #0056b3;
+}
